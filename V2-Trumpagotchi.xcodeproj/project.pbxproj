@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13017E9425095BFD00D37769 /* PiggyBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13017E9325095BFD00D37769 /* PiggyBank.swift */; };
+		130FEC0E2501AAF700682E91 /* Trophy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130FEC0D2501AAF700682E91 /* Trophy.swift */; };
+		130FEC102501B30A00682E91 /* DevComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130FEC0F2501B30A00682E91 /* DevComment.swift */; };
+		130FEC172502D44800682E91 /* Covid - disinfectant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 130FEC112502D44600682E91 /* Covid - disinfectant.mp3 */; };
+		130FEC182502D44800682E91 /* Covid - by cases.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 130FEC122502D44700682E91 /* Covid - by cases.mp3 */; };
+		130FEC1A2502D44800682E91 /* Covid - go away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 130FEC142502D44700682E91 /* Covid - go away.mp3 */; };
+		130FEC1B2502D44800682E91 /* Covid - world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 130FEC152502D44800682E91 /* Covid - world.mp3 */; };
+		130FEC1C2502D44800682E91 /* Covid - many cases.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 130FEC162502D44800682E91 /* Covid - many cases.mp3 */; };
+		13198E0124DDD5FB00EF5C7C /* DebateGameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E0024DDD5FB00EF5C7C /* DebateGameOver.swift */; };
+		13198E0324DE03BB00EF5C7C /* GameSelectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E0224DE03BB00EF5C7C /* GameSelectScene.swift */; };
+		13198E0524DE074000EF5C7C /* CovidScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E0424DE074000EF5C7C /* CovidScene.swift */; };
+		13198E0E24E1CC2100EF5C7C /* trumpYawn.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13198E0D24E1CC2100EF5C7C /* trumpYawn.atlas */; };
+		13198E1024E37C1F00EF5C7C /* CovidGameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E0F24E37C1F00EF5C7C /* CovidGameOver.swift */; };
+		13198E1224E452F600EF5C7C /* WallPieceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E1124E452F600EF5C7C /* WallPieceBuilder.swift */; };
+		13198E1424E460F700EF5C7C /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E1324E460F700EF5C7C /* GameOverScene.swift */; };
+		13198E1624E9B42C00EF5C7C /* televisionOn.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13198E1524E9B42C00EF5C7C /* televisionOn.atlas */; };
+		13198E1824E9B46900EF5C7C /* NuclearSuitcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E1724E9B46900EF5C7C /* NuclearSuitcase.swift */; };
+		13198E1A24E9C6EA00EF5C7C /* BriefingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E1924E9C6EA00EF5C7C /* BriefingScene.swift */; };
+		13198E1C24EAFC2400EF5C7C /* windowProtest.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13198E1B24EAFC2300EF5C7C /* windowProtest.atlas */; };
+		13198E1E24EAFF5600EF5C7C /* windowShadows.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13198E1D24EAFF5600EF5C7C /* windowShadows.atlas */; };
+		13198E2024EB011300EF5C7C /* windowFire.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13198E1F24EB011300EF5C7C /* windowFire.atlas */; };
+		13198E2224EB03F600EF5C7C /* backgroundFire.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13198E2124EB03F600EF5C7C /* backgroundFire.atlas */; };
+		13198E2824EB273D00EF5C7C /* NuclearState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E2724EB273D00EF5C7C /* NuclearState.swift */; };
+		13198E2A24EC4C2300EF5C7C /* ConferenceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13198E2924EC4C2300EF5C7C /* ConferenceScene.swift */; };
+		13198E2D24ECAF2400EF5C7C /* angryMeterMAX.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13198E2C24ECAF2400EF5C7C /* angryMeterMAX.atlas */; };
+		134494A22506837300DF68D5 /* DevAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134494A12506837300DF68D5 /* DevAvatar.swift */; };
+		134494AB25069BE700DF68D5 /* Conference - Rude1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494A325069BE600DF68D5 /* Conference - Rude1.mp3 */; };
+		134494AC25069BE700DF68D5 /* Conference - Question.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494A425069BE600DF68D5 /* Conference - Question.mp3 */; };
+		134494AD25069BE700DF68D5 /* Conference - Rude2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494A525069BE700DF68D5 /* Conference - Rude2.mp3 */; };
+		134494AE25069BE700DF68D5 /* Conference - Quiet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494A625069BE700DF68D5 /* Conference - Quiet.mp3 */; };
+		134494AF25069BE700DF68D5 /* Conference - FakeNews.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494A725069BE700DF68D5 /* Conference - FakeNews.mp3 */; };
+		134494B025069BE700DF68D5 /* Conference - Not you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494A825069BE700DF68D5 /* Conference - Not you.mp3 */; };
+		134494B125069BE700DF68D5 /* Conference - Organization1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494A925069BE700DF68D5 /* Conference - Organization1.mp3 */; };
+		134494B225069BE700DF68D5 /* Conference - Organization2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494AA25069BE700DF68D5 /* Conference - Organization2.mp3 */; };
+		134494BA2506A63800DF68D5 /* Conference - Run country.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494B32506A63700DF68D5 /* Conference - Run country.mp3 */; };
+		134494BB2506A63800DF68D5 /* Conference - CNN3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494B42506A63700DF68D5 /* Conference - CNN3.mp3 */; };
+		134494BC2506A63800DF68D5 /* Conference - CNN2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494B52506A63700DF68D5 /* Conference - CNN2.mp3 */; };
+		134494BD2506A63800DF68D5 /* Conference - Enough1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494B62506A63700DF68D5 /* Conference - Enough1.mp3 */; };
+		134494BE2506A63800DF68D5 /* Conference - CNN1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494B72506A63800DF68D5 /* Conference - CNN1.mp3 */; };
+		134494BF2506A63800DF68D5 /* Conference - Sit down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494B82506A63800DF68D5 /* Conference - Sit down.mp3 */; };
+		134494C02506A63800DF68D5 /* Conference - Enough2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494B92506A63800DF68D5 /* Conference - Enough2.mp3 */; };
+		134494C42506CF2E00DF68D5 /* Debate - Bing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494C12506CF2D00DF68D5 /* Debate - Bing.mp3 */; };
+		134494C52506CF2E00DF68D5 /* Debate - Bong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134494C22506CF2D00DF68D5 /* Debate - Bong.mp3 */; };
+		134A19DF25101D9100F7A7F2 /* ReporterHand4.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19D625101D8F00F7A7F2 /* ReporterHand4.atlas */; };
+		134A19E025101D9100F7A7F2 /* ReporterHand6.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19D725101D8F00F7A7F2 /* ReporterHand6.atlas */; };
+		134A19E125101D9100F7A7F2 /* ReporterHand2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19D825101D9000F7A7F2 /* ReporterHand2.atlas */; };
+		134A19E225101D9100F7A7F2 /* ReporterHand7.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19D925101D9000F7A7F2 /* ReporterHand7.atlas */; };
+		134A19E325101D9100F7A7F2 /* ReporterHand9.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19DA25101D9000F7A7F2 /* ReporterHand9.atlas */; };
+		134A19E425101D9100F7A7F2 /* ReporterHand1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19DB25101D9000F7A7F2 /* ReporterHand1.atlas */; };
+		134A19E525101D9100F7A7F2 /* ReporterHand5.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19DC25101D9000F7A7F2 /* ReporterHand5.atlas */; };
+		134A19E625101D9100F7A7F2 /* ReporterHand8.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19DD25101D9000F7A7F2 /* ReporterHand8.atlas */; };
+		134A19E725101D9100F7A7F2 /* ReporterHand3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19DE25101D9100F7A7F2 /* ReporterHand3.atlas */; };
+		134A19E925113D1A00F7A7F2 /* trumpPodiumSmile.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19E825113D1A00F7A7F2 /* trumpPodiumSmile.atlas */; };
+		134A19EB251142B000F7A7F2 /* Conference - Reporter4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134A19EA251142B000F7A7F2 /* Conference - Reporter4.mp3 */; };
+		134A19ED2511440B00F7A7F2 /* bidenPodiumSmile.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 134A19EC2511440B00F7A7F2 /* bidenPodiumSmile.atlas */; };
+		134A19F8251150CE00F7A7F2 /* Debate - Biden4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134A19F2251150CD00F7A7F2 /* Debate - Biden4.mp3 */; };
+		134A19FB251154AD00F7A7F2 /* Debate - Circus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134A19FA251154AC00F7A7F2 /* Debate - Circus.mp3 */; };
+		134A1A0025115F9D00F7A7F2 /* Debate - Biden2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134A19FC25115F9C00F7A7F2 /* Debate - Biden2.mp3 */; };
+		134A1A0125115F9D00F7A7F2 /* Debate - Biden3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134A19FD25115F9C00F7A7F2 /* Debate - Biden3.mp3 */; };
+		134A1A0225115F9D00F7A7F2 /* Debate - Biden5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134A19FE25115F9D00F7A7F2 /* Debate - Biden5.mp3 */; };
+		134A1A0325115F9D00F7A7F2 /* Debate - Biden1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134A19FF25115F9D00F7A7F2 /* Debate - Biden1.mp3 */; };
+		134D5D8F25142A3A005E822E /* SummerBlaster.otf in Resources */ = {isa = PBXBuildFile; fileRef = 134D5D8E25142A39005E822E /* SummerBlaster.otf */; };
+		134D5D9425145ECB005E822E /* trumpagotchi-neu.otf in Resources */ = {isa = PBXBuildFile; fileRef = 134D5D9325145ECB005E822E /* trumpagotchi-neu.otf */; };
+		134D5D9825155A78005E822E /* spund.otf in Resources */ = {isa = PBXBuildFile; fileRef = 134D5D9725155A78005E822E /* spund.otf */; };
+		134D5D9A25155C64005E822E /* beach.otf in Resources */ = {isa = PBXBuildFile; fileRef = 134D5D9925155C64005E822E /* beach.otf */; };
+		138B2E2624D209B400878DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E2524D209B400878DE4 /* AppDelegate.swift */; };
+		138B2E2C24D209B400878DE4 /* OfficeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E2B24D209B400878DE4 /* OfficeScene.swift */; };
+		138B2E2E24D209B400878DE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E2D24D209B400878DE4 /* GameViewController.swift */; };
+		138B2E3124D209B400878DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138B2E2F24D209B400878DE4 /* Main.storyboard */; };
+		138B2E3324D209BC00878DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138B2E3224D209BC00878DE4 /* Assets.xcassets */; };
+		138B2E3624D209BC00878DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138B2E3424D209BC00878DE4 /* LaunchScreen.storyboard */; };
+		138B2E3E24D20A8700878DE4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E3D24D20A8700878DE4 /* Constants.swift */; };
+		138B2E4124D2152000878DE4 /* Desk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E4024D2152000878DE4 /* Desk.swift */; };
+		138B2E4324D2200300878DE4 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E4224D2200300878DE4 /* Background.swift */; };
+		138B2E4524D2261C00878DE4 /* Television.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E4424D2261C00878DE4 /* Television.swift */; };
+		138B2E4724D23A7D00878DE4 /* FlagRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E4624D23A7D00878DE4 /* FlagRight.swift */; };
+		138B2E4924D23A8800878DE4 /* FlagLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E4824D23A8800878DE4 /* FlagLeft.swift */; };
+		138B2E4B24D23D6000878DE4 /* Curtain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E4A24D23D6000878DE4 /* Curtain.swift */; };
+		138B2E4D24D2408D00878DE4 /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E4C24D2408D00878DE4 /* Chair.swift */; };
+		138B2E4F24D2425000878DE4 /* CokeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E4E24D2425000878DE4 /* CokeButton.swift */; };
+		138B2E5124D2444D00878DE4 /* SmallTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E5024D2444D00878DE4 /* SmallTable.swift */; };
+		138B2E5324D3235800878DE4 /* CokeBottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E5224D3235800878DE4 /* CokeBottle.swift */; };
+		138B2E5724D34FD600878DE4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E5624D34FD600878DE4 /* Utilities.swift */; };
+		138B2E5924D3632800878DE4 /* Briefing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E5824D3632800878DE4 /* Briefing.swift */; };
+		138B2E5D24D3803F00878DE4 /* Exit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E5C24D3803F00878DE4 /* Exit.swift */; };
+		138B2E6224D760B400878DE4 /* Trump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138B2E6124D760B400878DE4 /* Trump.swift */; };
+		1396CFCC24F2E7F500BC011B /* TrashBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1396CFCB24F2E7F500BC011B /* TrashBin.swift */; };
+		1396CFCE24F44B7300BC011B /* TutorialBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1396CFCD24F44B7300BC011B /* TutorialBox.swift */; };
+		1396CFD024F8268800BC011B /* ConferenceGameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1396CFCF24F8268800BC011B /* ConferenceGameOver.swift */; };
+		139AA1D9250EBD4E00D37A58 /* Conference - Reporter3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 139AA1D0250EBD4A00D37A58 /* Conference - Reporter3.mp3 */; };
+		139AA1DA250EBD4E00D37A58 /* Conference - Reporter5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 139AA1D1250EBD4A00D37A58 /* Conference - Reporter5.mp3 */; };
+		139AA1DB250EBD4E00D37A58 /* Conference - Reporter7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 139AA1D2250EBD4B00D37A58 /* Conference - Reporter7.mp3 */; };
+		139AA1DC250EBD4E00D37A58 /* Conference - Reporter8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 139AA1D3250EBD4B00D37A58 /* Conference - Reporter8.mp3 */; };
+		139AA1DD250EBD4E00D37A58 /* Conference - Reporter9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 139AA1D4250EBD4C00D37A58 /* Conference - Reporter9.mp3 */; };
+		139AA1DE250EBD4E00D37A58 /* Conference - Reporter2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 139AA1D5250EBD4C00D37A58 /* Conference - Reporter2.mp3 */; };
+		139AA1DF250EBD4E00D37A58 /* Conference - Reporter1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 139AA1D6250EBD4D00D37A58 /* Conference - Reporter1.mp3 */; };
+		139AA1E0250EBD4E00D37A58 /* Conference - Reporter6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 139AA1D7250EBD4D00D37A58 /* Conference - Reporter6.mp3 */; };
+		13AD180D24F05EAD003AD88E /* TweetPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD180C24F05EAD003AD88E /* TweetPost.swift */; };
+		13CD641324D76A0A00132435 /* Pathfinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD641224D76A0A00132435 /* Pathfinding.swift */; };
+		13CD641624D8704000132435 /* Meters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD641524D8704000132435 /* Meters.swift */; };
+		13CD641A24D8863600132435 /* trumpWalk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD641924D8863600132435 /* trumpWalk.atlas */; };
+		13CD642324D9CECE00132435 /* trumpDrink.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD641B24D9CECD00132435 /* trumpDrink.atlas */; };
+		13CD642424D9CECE00132435 /* trumpTouched.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD641C24D9CECD00132435 /* trumpTouched.atlas */; };
+		13CD642524D9CECE00132435 /* trumpPressButton.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD641D24D9CECD00132435 /* trumpPressButton.atlas */; };
+		13CD642624D9CECE00132435 /* trumpStomp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD641E24D9CECE00132435 /* trumpStomp.atlas */; };
+		13CD642724D9CECE00132435 /* trumpTypeTweet.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD641F24D9CECE00132435 /* trumpTypeTweet.atlas */; };
+		13CD642824D9CECE00132435 /* trumpLazy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD642024D9CECE00132435 /* trumpLazy.atlas */; };
+		13CD642A24D9CECE00132435 /* trumpShrug.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD642224D9CECE00132435 /* trumpShrug.atlas */; };
+		13CD643D24D9D36C00132435 /* CokeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD643C24D9D36C00132435 /* CokeState.swift */; };
+		13CD643F24D9D3E500132435 /* IdleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD643E24D9D3E500132435 /* IdleState.swift */; };
+		13CD644124D9DBCD00132435 /* WatchTVState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD644024D9DBCD00132435 /* WatchTVState.swift */; };
+		13CD644524D9DC5600132435 /* SleepState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD644424D9DC5600132435 /* SleepState.swift */; };
+		13CD644724DB3B7000132435 /* LazyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD644624DB3B7000132435 /* LazyState.swift */; };
+		13CD644924DB6BF000132435 /* TweetPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD644824DB6BF000132435 /* TweetPile.swift */; };
+		13CD644C24DB9F3D00132435 /* trumpSleep.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13CD644B24DB9F3D00132435 /* trumpSleep.atlas */; };
+		13CD644E24DC6D6000132435 /* DebateScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD644D24DC6D6000132435 /* DebateScene.swift */; };
+		13CD645224DC6E1600132435 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD645124DC6E1600132435 /* Tile.swift */; };
+		13CD645424DC91C000132435 /* TrumpSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD645324DC91C000132435 /* TrumpSprite.swift */; };
+		13CD645624DC934800132435 /* BidenSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD645524DC934800132435 /* BidenSprite.swift */; };
+		13CD645824DC941F00132435 /* TextBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD645724DC941F00132435 /* TextBubble.swift */; };
+		13D7564824FB29A70053EF5C /* trumpPressNuclearButton.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13D7564724FB29A60053EF5C /* trumpPressNuclearButton.atlas */; };
+		13D7564A24FB31BB0053EF5C /* DictatorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7564924FB31BB0053EF5C /* DictatorState.swift */; };
+		13D7564D24FB4B1D0053EF5C /* trumpSmile.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13D7564C24FB4B1D0053EF5C /* trumpSmile.atlas */; };
+		13D7565124FD9E1E0053EF5C /* trumpNuclearState.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 13D7565024FD9E1D0053EF5C /* trumpNuclearState.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13017E9325095BFD00D37769 /* PiggyBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBank.swift; sourceTree = "<group>"; };
+		130FEC0D2501AAF700682E91 /* Trophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trophy.swift; sourceTree = "<group>"; };
+		130FEC0F2501B30A00682E91 /* DevComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevComment.swift; sourceTree = "<group>"; };
+		130FEC112502D44600682E91 /* Covid - disinfectant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Covid - disinfectant.mp3"; sourceTree = "<group>"; };
+		130FEC122502D44700682E91 /* Covid - by cases.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Covid - by cases.mp3"; sourceTree = "<group>"; };
+		130FEC142502D44700682E91 /* Covid - go away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Covid - go away.mp3"; sourceTree = "<group>"; };
+		130FEC152502D44800682E91 /* Covid - world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Covid - world.mp3"; sourceTree = "<group>"; };
+		130FEC162502D44800682E91 /* Covid - many cases.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Covid - many cases.mp3"; sourceTree = "<group>"; };
+		13198E0024DDD5FB00EF5C7C /* DebateGameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebateGameOver.swift; sourceTree = "<group>"; };
+		13198E0224DE03BB00EF5C7C /* GameSelectScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectScene.swift; sourceTree = "<group>"; };
+		13198E0424DE074000EF5C7C /* CovidScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidScene.swift; sourceTree = "<group>"; };
+		13198E0D24E1CC2100EF5C7C /* trumpYawn.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpYawn.atlas; sourceTree = "<group>"; };
+		13198E0F24E37C1F00EF5C7C /* CovidGameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidGameOver.swift; sourceTree = "<group>"; };
+		13198E1124E452F600EF5C7C /* WallPieceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallPieceBuilder.swift; sourceTree = "<group>"; };
+		13198E1324E460F700EF5C7C /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		13198E1524E9B42C00EF5C7C /* televisionOn.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = televisionOn.atlas; sourceTree = "<group>"; };
+		13198E1724E9B46900EF5C7C /* NuclearSuitcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuclearSuitcase.swift; sourceTree = "<group>"; };
+		13198E1924E9C6EA00EF5C7C /* BriefingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingScene.swift; sourceTree = "<group>"; };
+		13198E1B24EAFC2300EF5C7C /* windowProtest.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = windowProtest.atlas; sourceTree = "<group>"; };
+		13198E1D24EAFF5600EF5C7C /* windowShadows.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = windowShadows.atlas; sourceTree = "<group>"; };
+		13198E1F24EB011300EF5C7C /* windowFire.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = windowFire.atlas; sourceTree = "<group>"; };
+		13198E2124EB03F600EF5C7C /* backgroundFire.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = backgroundFire.atlas; sourceTree = "<group>"; };
+		13198E2724EB273D00EF5C7C /* NuclearState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuclearState.swift; sourceTree = "<group>"; };
+		13198E2924EC4C2300EF5C7C /* ConferenceScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceScene.swift; sourceTree = "<group>"; };
+		13198E2C24ECAF2400EF5C7C /* angryMeterMAX.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = angryMeterMAX.atlas; sourceTree = "<group>"; };
+		134494A12506837300DF68D5 /* DevAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevAvatar.swift; sourceTree = "<group>"; };
+		134494A325069BE600DF68D5 /* Conference - Rude1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Rude1.mp3"; sourceTree = "<group>"; };
+		134494A425069BE600DF68D5 /* Conference - Question.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Question.mp3"; sourceTree = "<group>"; };
+		134494A525069BE700DF68D5 /* Conference - Rude2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Rude2.mp3"; sourceTree = "<group>"; };
+		134494A625069BE700DF68D5 /* Conference - Quiet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Quiet.mp3"; sourceTree = "<group>"; };
+		134494A725069BE700DF68D5 /* Conference - FakeNews.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - FakeNews.mp3"; sourceTree = "<group>"; };
+		134494A825069BE700DF68D5 /* Conference - Not you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Not you.mp3"; sourceTree = "<group>"; };
+		134494A925069BE700DF68D5 /* Conference - Organization1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Organization1.mp3"; sourceTree = "<group>"; };
+		134494AA25069BE700DF68D5 /* Conference - Organization2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Organization2.mp3"; sourceTree = "<group>"; };
+		134494B32506A63700DF68D5 /* Conference - Run country.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Run country.mp3"; sourceTree = "<group>"; };
+		134494B42506A63700DF68D5 /* Conference - CNN3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - CNN3.mp3"; sourceTree = "<group>"; };
+		134494B52506A63700DF68D5 /* Conference - CNN2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - CNN2.mp3"; sourceTree = "<group>"; };
+		134494B62506A63700DF68D5 /* Conference - Enough1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Enough1.mp3"; sourceTree = "<group>"; };
+		134494B72506A63800DF68D5 /* Conference - CNN1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - CNN1.mp3"; sourceTree = "<group>"; };
+		134494B82506A63800DF68D5 /* Conference - Sit down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Sit down.mp3"; sourceTree = "<group>"; };
+		134494B92506A63800DF68D5 /* Conference - Enough2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Enough2.mp3"; sourceTree = "<group>"; };
+		134494C12506CF2D00DF68D5 /* Debate - Bing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Debate - Bing.mp3"; sourceTree = "<group>"; };
+		134494C22506CF2D00DF68D5 /* Debate - Bong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Debate - Bong.mp3"; sourceTree = "<group>"; };
+		134A19D625101D8F00F7A7F2 /* ReporterHand4.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand4.atlas; sourceTree = "<group>"; };
+		134A19D725101D8F00F7A7F2 /* ReporterHand6.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand6.atlas; sourceTree = "<group>"; };
+		134A19D825101D9000F7A7F2 /* ReporterHand2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand2.atlas; sourceTree = "<group>"; };
+		134A19D925101D9000F7A7F2 /* ReporterHand7.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand7.atlas; sourceTree = "<group>"; };
+		134A19DA25101D9000F7A7F2 /* ReporterHand9.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand9.atlas; sourceTree = "<group>"; };
+		134A19DB25101D9000F7A7F2 /* ReporterHand1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand1.atlas; sourceTree = "<group>"; };
+		134A19DC25101D9000F7A7F2 /* ReporterHand5.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand5.atlas; sourceTree = "<group>"; };
+		134A19DD25101D9000F7A7F2 /* ReporterHand8.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand8.atlas; sourceTree = "<group>"; };
+		134A19DE25101D9100F7A7F2 /* ReporterHand3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ReporterHand3.atlas; sourceTree = "<group>"; };
+		134A19E825113D1A00F7A7F2 /* trumpPodiumSmile.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpPodiumSmile.atlas; sourceTree = "<group>"; };
+		134A19EA251142B000F7A7F2 /* Conference - Reporter4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter4.mp3"; sourceTree = "<group>"; };
+		134A19EC2511440B00F7A7F2 /* bidenPodiumSmile.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bidenPodiumSmile.atlas; sourceTree = "<group>"; };
+		134A19F2251150CD00F7A7F2 /* Debate - Biden4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Debate - Biden4.mp3"; sourceTree = "<group>"; };
+		134A19FA251154AC00F7A7F2 /* Debate - Circus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Debate - Circus.mp3"; sourceTree = "<group>"; };
+		134A19FC25115F9C00F7A7F2 /* Debate - Biden2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Debate - Biden2.mp3"; sourceTree = "<group>"; };
+		134A19FD25115F9C00F7A7F2 /* Debate - Biden3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Debate - Biden3.mp3"; sourceTree = "<group>"; };
+		134A19FE25115F9D00F7A7F2 /* Debate - Biden5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Debate - Biden5.mp3"; sourceTree = "<group>"; };
+		134A19FF25115F9D00F7A7F2 /* Debate - Biden1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Debate - Biden1.mp3"; sourceTree = "<group>"; };
+		134D5D8E25142A39005E822E /* SummerBlaster.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SummerBlaster.otf; sourceTree = "<group>"; };
+		134D5D9325145ECB005E822E /* trumpagotchi-neu.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trumpagotchi-neu.otf"; sourceTree = "<group>"; };
+		134D5D9725155A78005E822E /* spund.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = spund.otf; sourceTree = "<group>"; };
+		134D5D9925155C64005E822E /* beach.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beach.otf; sourceTree = "<group>"; };
+		138B2E2224D209B400878DE4 /* Trumpagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trumpagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138B2E2524D209B400878DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		138B2E2B24D209B400878DE4 /* OfficeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeScene.swift; sourceTree = "<group>"; };
+		138B2E2D24D209B400878DE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		138B2E3024D209B400878DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		138B2E3224D209BC00878DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		138B2E3524D209BC00878DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		138B2E3724D209BC00878DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138B2E3D24D20A8700878DE4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		138B2E4024D2152000878DE4 /* Desk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desk.swift; sourceTree = "<group>"; };
+		138B2E4224D2200300878DE4 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		138B2E4424D2261C00878DE4 /* Television.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Television.swift; sourceTree = "<group>"; };
+		138B2E4624D23A7D00878DE4 /* FlagRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagRight.swift; sourceTree = "<group>"; };
+		138B2E4824D23A8800878DE4 /* FlagLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagLeft.swift; sourceTree = "<group>"; };
+		138B2E4A24D23D6000878DE4 /* Curtain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curtain.swift; sourceTree = "<group>"; };
+		138B2E4C24D2408D00878DE4 /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
+		138B2E4E24D2425000878DE4 /* CokeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CokeButton.swift; sourceTree = "<group>"; };
+		138B2E5024D2444D00878DE4 /* SmallTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTable.swift; sourceTree = "<group>"; };
+		138B2E5224D3235800878DE4 /* CokeBottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CokeBottle.swift; sourceTree = "<group>"; };
+		138B2E5624D34FD600878DE4 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		138B2E5824D3632800878DE4 /* Briefing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Briefing.swift; sourceTree = "<group>"; };
+		138B2E5C24D3803F00878DE4 /* Exit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exit.swift; sourceTree = "<group>"; };
+		138B2E6124D760B400878DE4 /* Trump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trump.swift; sourceTree = "<group>"; };
+		1396CFCB24F2E7F500BC011B /* TrashBin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashBin.swift; sourceTree = "<group>"; };
+		1396CFCD24F44B7300BC011B /* TutorialBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialBox.swift; sourceTree = "<group>"; };
+		1396CFCF24F8268800BC011B /* ConferenceGameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceGameOver.swift; sourceTree = "<group>"; };
+		139AA1D0250EBD4A00D37A58 /* Conference - Reporter3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter3.mp3"; sourceTree = "<group>"; };
+		139AA1D1250EBD4A00D37A58 /* Conference - Reporter5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter5.mp3"; sourceTree = "<group>"; };
+		139AA1D2250EBD4B00D37A58 /* Conference - Reporter7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter7.mp3"; sourceTree = "<group>"; };
+		139AA1D3250EBD4B00D37A58 /* Conference - Reporter8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter8.mp3"; sourceTree = "<group>"; };
+		139AA1D4250EBD4C00D37A58 /* Conference - Reporter9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter9.mp3"; sourceTree = "<group>"; };
+		139AA1D5250EBD4C00D37A58 /* Conference - Reporter2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter2.mp3"; sourceTree = "<group>"; };
+		139AA1D6250EBD4D00D37A58 /* Conference - Reporter1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter1.mp3"; sourceTree = "<group>"; };
+		139AA1D7250EBD4D00D37A58 /* Conference - Reporter6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conference - Reporter6.mp3"; sourceTree = "<group>"; };
+		13AD180C24F05EAD003AD88E /* TweetPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPost.swift; sourceTree = "<group>"; };
+		13CD641224D76A0A00132435 /* Pathfinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pathfinding.swift; sourceTree = "<group>"; };
+		13CD641524D8704000132435 /* Meters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meters.swift; sourceTree = "<group>"; };
+		13CD641924D8863600132435 /* trumpWalk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpWalk.atlas; sourceTree = "<group>"; };
+		13CD641B24D9CECD00132435 /* trumpDrink.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpDrink.atlas; sourceTree = "<group>"; };
+		13CD641C24D9CECD00132435 /* trumpTouched.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpTouched.atlas; sourceTree = "<group>"; };
+		13CD641D24D9CECD00132435 /* trumpPressButton.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpPressButton.atlas; sourceTree = "<group>"; };
+		13CD641E24D9CECE00132435 /* trumpStomp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpStomp.atlas; sourceTree = "<group>"; };
+		13CD641F24D9CECE00132435 /* trumpTypeTweet.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpTypeTweet.atlas; sourceTree = "<group>"; };
+		13CD642024D9CECE00132435 /* trumpLazy.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpLazy.atlas; sourceTree = "<group>"; };
+		13CD642224D9CECE00132435 /* trumpShrug.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpShrug.atlas; sourceTree = "<group>"; };
+		13CD643C24D9D36C00132435 /* CokeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CokeState.swift; sourceTree = "<group>"; };
+		13CD643E24D9D3E500132435 /* IdleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleState.swift; sourceTree = "<group>"; };
+		13CD644024D9DBCD00132435 /* WatchTVState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTVState.swift; sourceTree = "<group>"; };
+		13CD644424D9DC5600132435 /* SleepState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepState.swift; sourceTree = "<group>"; };
+		13CD644624DB3B7000132435 /* LazyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyState.swift; sourceTree = "<group>"; };
+		13CD644824DB6BF000132435 /* TweetPile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPile.swift; sourceTree = "<group>"; };
+		13CD644B24DB9F3D00132435 /* trumpSleep.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpSleep.atlas; sourceTree = "<group>"; };
+		13CD644D24DC6D6000132435 /* DebateScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebateScene.swift; sourceTree = "<group>"; };
+		13CD645124DC6E1600132435 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		13CD645324DC91C000132435 /* TrumpSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpSprite.swift; sourceTree = "<group>"; };
+		13CD645524DC934800132435 /* BidenSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidenSprite.swift; sourceTree = "<group>"; };
+		13CD645724DC941F00132435 /* TextBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBubble.swift; sourceTree = "<group>"; };
+		13D7564724FB29A60053EF5C /* trumpPressNuclearButton.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpPressNuclearButton.atlas; sourceTree = "<group>"; };
+		13D7564924FB31BB0053EF5C /* DictatorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictatorState.swift; sourceTree = "<group>"; };
+		13D7564C24FB4B1D0053EF5C /* trumpSmile.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpSmile.atlas; sourceTree = "<group>"; };
+		13D7565024FD9E1D0053EF5C /* trumpNuclearState.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = trumpNuclearState.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138B2E1F24D209B400878DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13198DFD24DCAFA700EF5C7C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				130FEC122502D44700682E91 /* Covid - by cases.mp3 */,
+				130FEC112502D44600682E91 /* Covid - disinfectant.mp3 */,
+				130FEC142502D44700682E91 /* Covid - go away.mp3 */,
+				130FEC152502D44800682E91 /* Covid - world.mp3 */,
+				130FEC162502D44800682E91 /* Covid - many cases.mp3 */,
+				139AA1D6250EBD4D00D37A58 /* Conference - Reporter1.mp3 */,
+				139AA1D5250EBD4C00D37A58 /* Conference - Reporter2.mp3 */,
+				139AA1D0250EBD4A00D37A58 /* Conference - Reporter3.mp3 */,
+				134A19EA251142B000F7A7F2 /* Conference - Reporter4.mp3 */,
+				139AA1D1250EBD4A00D37A58 /* Conference - Reporter5.mp3 */,
+				139AA1D7250EBD4D00D37A58 /* Conference - Reporter6.mp3 */,
+				139AA1D2250EBD4B00D37A58 /* Conference - Reporter7.mp3 */,
+				139AA1D3250EBD4B00D37A58 /* Conference - Reporter8.mp3 */,
+				139AA1D4250EBD4C00D37A58 /* Conference - Reporter9.mp3 */,
+				134494A725069BE700DF68D5 /* Conference - FakeNews.mp3 */,
+				134494A825069BE700DF68D5 /* Conference - Not you.mp3 */,
+				134494A925069BE700DF68D5 /* Conference - Organization1.mp3 */,
+				134494AA25069BE700DF68D5 /* Conference - Organization2.mp3 */,
+				134494A425069BE600DF68D5 /* Conference - Question.mp3 */,
+				134494A625069BE700DF68D5 /* Conference - Quiet.mp3 */,
+				134494A325069BE600DF68D5 /* Conference - Rude1.mp3 */,
+				134494A525069BE700DF68D5 /* Conference - Rude2.mp3 */,
+				134494B72506A63800DF68D5 /* Conference - CNN1.mp3 */,
+				134494B52506A63700DF68D5 /* Conference - CNN2.mp3 */,
+				134494B42506A63700DF68D5 /* Conference - CNN3.mp3 */,
+				134494B62506A63700DF68D5 /* Conference - Enough1.mp3 */,
+				134494B92506A63800DF68D5 /* Conference - Enough2.mp3 */,
+				134494B32506A63700DF68D5 /* Conference - Run country.mp3 */,
+				134494B82506A63800DF68D5 /* Conference - Sit down.mp3 */,
+				134A19F2251150CD00F7A7F2 /* Debate - Biden4.mp3 */,
+				134494C12506CF2D00DF68D5 /* Debate - Bing.mp3 */,
+				134494C22506CF2D00DF68D5 /* Debate - Bong.mp3 */,
+				134A19FA251154AC00F7A7F2 /* Debate - Circus.mp3 */,
+				134A19FF25115F9D00F7A7F2 /* Debate - Biden1.mp3 */,
+				134A19FC25115F9C00F7A7F2 /* Debate - Biden2.mp3 */,
+				134A19FD25115F9C00F7A7F2 /* Debate - Biden3.mp3 */,
+				134A19FE25115F9D00F7A7F2 /* Debate - Biden5.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		13198E0624DE0CF500EF5C7C /* CovidGame */ = {
+			isa = PBXGroup;
+			children = (
+				13198E0F24E37C1F00EF5C7C /* CovidGameOver.swift */,
+				13198E1124E452F600EF5C7C /* WallPieceBuilder.swift */,
+			);
+			path = CovidGame;
+			sourceTree = "<group>";
+		};
+		13198E2B24EC4D0800EF5C7C /* ConferenceGame */ = {
+			isa = PBXGroup;
+			children = (
+				1396CFCF24F8268800BC011B /* ConferenceGameOver.swift */,
+			);
+			path = ConferenceGame;
+			sourceTree = "<group>";
+		};
+		134D5D8B2514242A005E822E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				134D5D8E25142A39005E822E /* SummerBlaster.otf */,
+				134D5D9725155A78005E822E /* spund.otf */,
+				134D5D9325145ECB005E822E /* trumpagotchi-neu.otf */,
+				134D5D9925155C64005E822E /* beach.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		138B2E1924D209B400878DE4 = {
+			isa = PBXGroup;
+			children = (
+				138B2E2424D209B400878DE4 /* V2-Trumpagotchi */,
+				138B2E2324D209B400878DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		138B2E2324D209B400878DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138B2E2224D209B400878DE4 /* Trumpagotchi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		138B2E2424D209B400878DE4 /* V2-Trumpagotchi */ = {
+			isa = PBXGroup;
+			children = (
+				138B2E3D24D20A8700878DE4 /* Constants.swift */,
+				138B2E5624D34FD600878DE4 /* Utilities.swift */,
+				138B2E6324D761F200878DE4 /* Scenes */,
+				13CD644F24DC6E0000132435 /* MiniGames */,
+				13CD641424D8701C00132435 /* Interface */,
+				138B2E5E24D4934400878DE4 /* Trump */,
+				138B2E3F24D2150C00878DE4 /* OfficeObjects */,
+				138B2E2D24D209B400878DE4 /* GameViewController.swift */,
+				138B2E2524D209B400878DE4 /* AppDelegate.swift */,
+				13CD642B24D9CEDB00132435 /* Resources */,
+				138B2E2F24D209B400878DE4 /* Main.storyboard */,
+				138B2E3224D209BC00878DE4 /* Assets.xcassets */,
+				138B2E3424D209BC00878DE4 /* LaunchScreen.storyboard */,
+				138B2E3724D209BC00878DE4 /* Info.plist */,
+			);
+			path = "V2-Trumpagotchi";
+			sourceTree = "<group>";
+		};
+		138B2E3F24D2150C00878DE4 /* OfficeObjects */ = {
+			isa = PBXGroup;
+			children = (
+				138B2E4224D2200300878DE4 /* Background.swift */,
+				138B2E4024D2152000878DE4 /* Desk.swift */,
+				138B2E4424D2261C00878DE4 /* Television.swift */,
+				138B2E4624D23A7D00878DE4 /* FlagRight.swift */,
+				138B2E4824D23A8800878DE4 /* FlagLeft.swift */,
+				138B2E4A24D23D6000878DE4 /* Curtain.swift */,
+				138B2E4C24D2408D00878DE4 /* Chair.swift */,
+				138B2E4E24D2425000878DE4 /* CokeButton.swift */,
+				138B2E5024D2444D00878DE4 /* SmallTable.swift */,
+				138B2E5824D3632800878DE4 /* Briefing.swift */,
+				13198E1724E9B46900EF5C7C /* NuclearSuitcase.swift */,
+				130FEC0D2501AAF700682E91 /* Trophy.swift */,
+				13017E9325095BFD00D37769 /* PiggyBank.swift */,
+			);
+			path = OfficeObjects;
+			sourceTree = "<group>";
+		};
+		138B2E5E24D4934400878DE4 /* Trump */ = {
+			isa = PBXGroup;
+			children = (
+				138B2E6124D760B400878DE4 /* Trump.swift */,
+				13CD642D24D9D31600132435 /* TrumpStates */,
+				13CD641224D76A0A00132435 /* Pathfinding.swift */,
+			);
+			path = Trump;
+			sourceTree = "<group>";
+		};
+		138B2E6324D761F200878DE4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				138B2E2B24D209B400878DE4 /* OfficeScene.swift */,
+				13198E1324E460F700EF5C7C /* GameOverScene.swift */,
+				13198E0224DE03BB00EF5C7C /* GameSelectScene.swift */,
+				13198E1924E9C6EA00EF5C7C /* BriefingScene.swift */,
+				13198E2924EC4C2300EF5C7C /* ConferenceScene.swift */,
+				13CD644D24DC6D6000132435 /* DebateScene.swift */,
+				13198E0424DE074000EF5C7C /* CovidScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		13CD641424D8701C00132435 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				13CD641524D8704000132435 /* Meters.swift */,
+				138B2E5C24D3803F00878DE4 /* Exit.swift */,
+				13AD180C24F05EAD003AD88E /* TweetPost.swift */,
+				13CD644824DB6BF000132435 /* TweetPile.swift */,
+				138B2E5224D3235800878DE4 /* CokeBottle.swift */,
+				1396CFCB24F2E7F500BC011B /* TrashBin.swift */,
+				1396CFCD24F44B7300BC011B /* TutorialBox.swift */,
+				130FEC0F2501B30A00682E91 /* DevComment.swift */,
+				134494A12506837300DF68D5 /* DevAvatar.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		13CD642B24D9CEDB00132435 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				134D5D8B2514242A005E822E /* Fonts */,
+				13198DFD24DCAFA700EF5C7C /* Sounds */,
+				134A19DB25101D9000F7A7F2 /* ReporterHand1.atlas */,
+				134A19D825101D9000F7A7F2 /* ReporterHand2.atlas */,
+				134A19DE25101D9100F7A7F2 /* ReporterHand3.atlas */,
+				134A19D625101D8F00F7A7F2 /* ReporterHand4.atlas */,
+				134A19DC25101D9000F7A7F2 /* ReporterHand5.atlas */,
+				134A19D725101D8F00F7A7F2 /* ReporterHand6.atlas */,
+				134A19D925101D9000F7A7F2 /* ReporterHand7.atlas */,
+				134A19DD25101D9000F7A7F2 /* ReporterHand8.atlas */,
+				134A19DA25101D9000F7A7F2 /* ReporterHand9.atlas */,
+				134A19E825113D1A00F7A7F2 /* trumpPodiumSmile.atlas */,
+				134A19EC2511440B00F7A7F2 /* bidenPodiumSmile.atlas */,
+				13198E2C24ECAF2400EF5C7C /* angryMeterMAX.atlas */,
+				13198E2124EB03F600EF5C7C /* backgroundFire.atlas */,
+				13198E1F24EB011300EF5C7C /* windowFire.atlas */,
+				13198E1D24EAFF5600EF5C7C /* windowShadows.atlas */,
+				13198E1B24EAFC2300EF5C7C /* windowProtest.atlas */,
+				13CD644B24DB9F3D00132435 /* trumpSleep.atlas */,
+				13CD641924D8863600132435 /* trumpWalk.atlas */,
+				13CD641D24D9CECD00132435 /* trumpPressButton.atlas */,
+				13CD641B24D9CECD00132435 /* trumpDrink.atlas */,
+				13CD641E24D9CECE00132435 /* trumpStomp.atlas */,
+				13CD642024D9CECE00132435 /* trumpLazy.atlas */,
+				13CD642224D9CECE00132435 /* trumpShrug.atlas */,
+				13CD641C24D9CECD00132435 /* trumpTouched.atlas */,
+				13CD641F24D9CECE00132435 /* trumpTypeTweet.atlas */,
+				13198E0D24E1CC2100EF5C7C /* trumpYawn.atlas */,
+				13D7564C24FB4B1D0053EF5C /* trumpSmile.atlas */,
+				13D7564724FB29A60053EF5C /* trumpPressNuclearButton.atlas */,
+				13D7565024FD9E1D0053EF5C /* trumpNuclearState.atlas */,
+				13198E1524E9B42C00EF5C7C /* televisionOn.atlas */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13CD642D24D9D31600132435 /* TrumpStates */ = {
+			isa = PBXGroup;
+			children = (
+				13CD643E24D9D3E500132435 /* IdleState.swift */,
+				13CD644024D9DBCD00132435 /* WatchTVState.swift */,
+				13CD644424D9DC5600132435 /* SleepState.swift */,
+				13CD644624DB3B7000132435 /* LazyState.swift */,
+				13CD643C24D9D36C00132435 /* CokeState.swift */,
+				13198E2724EB273D00EF5C7C /* NuclearState.swift */,
+				13D7564924FB31BB0053EF5C /* DictatorState.swift */,
+			);
+			path = TrumpStates;
+			sourceTree = "<group>";
+		};
+		13CD644F24DC6E0000132435 /* MiniGames */ = {
+			isa = PBXGroup;
+			children = (
+				13198E0624DE0CF500EF5C7C /* CovidGame */,
+				13198E2B24EC4D0800EF5C7C /* ConferenceGame */,
+				13CD645024DC6E0600132435 /* DebateGame */,
+			);
+			path = MiniGames;
+			sourceTree = "<group>";
+		};
+		13CD645024DC6E0600132435 /* DebateGame */ = {
+			isa = PBXGroup;
+			children = (
+				13CD645124DC6E1600132435 /* Tile.swift */,
+				13CD645324DC91C000132435 /* TrumpSprite.swift */,
+				13CD645524DC934800132435 /* BidenSprite.swift */,
+				13CD645724DC941F00132435 /* TextBubble.swift */,
+				13198E0024DDD5FB00EF5C7C /* DebateGameOver.swift */,
+			);
+			path = DebateGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		138B2E2124D209B400878DE4 /* V2-Trumpagotchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138B2E3A24D209BC00878DE4 /* Build configuration list for PBXNativeTarget "V2-Trumpagotchi" */;
+			buildPhases = (
+				138B2E1E24D209B400878DE4 /* Sources */,
+				138B2E1F24D209B400878DE4 /* Frameworks */,
+				138B2E2024D209B400878DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "V2-Trumpagotchi";
+			productName = "V2-Trumpagotchi";
+			productReference = 138B2E2224D209B400878DE4 /* Trumpagotchi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		138B2E1A24D209B400878DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Daniel Walder";
+				TargetAttributes = {
+					138B2E2124D209B400878DE4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 138B2E1D24D209B400878DE4 /* Build configuration list for PBXProject "V2-Trumpagotchi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 138B2E1924D209B400878DE4;
+			productRefGroup = 138B2E2324D209B400878DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138B2E2124D209B400878DE4 /* V2-Trumpagotchi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		138B2E2024D209B400878DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CD642A24D9CECE00132435 /* trumpShrug.atlas in Resources */,
+				134494C02506A63800DF68D5 /* Conference - Enough2.mp3 in Resources */,
+				134A19EB251142B000F7A7F2 /* Conference - Reporter4.mp3 in Resources */,
+				134A19E025101D9100F7A7F2 /* ReporterHand6.atlas in Resources */,
+				134494AE25069BE700DF68D5 /* Conference - Quiet.mp3 in Resources */,
+				134494BD2506A63800DF68D5 /* Conference - Enough1.mp3 in Resources */,
+				130FEC1C2502D44800682E91 /* Covid - many cases.mp3 in Resources */,
+				134A19ED2511440B00F7A7F2 /* bidenPodiumSmile.atlas in Resources */,
+				13198E1E24EAFF5600EF5C7C /* windowShadows.atlas in Resources */,
+				134494B225069BE700DF68D5 /* Conference - Organization2.mp3 in Resources */,
+				13198E1C24EAFC2400EF5C7C /* windowProtest.atlas in Resources */,
+				13D7564824FB29A70053EF5C /* trumpPressNuclearButton.atlas in Resources */,
+				134D5D9825155A78005E822E /* spund.otf in Resources */,
+				134A1A0225115F9D00F7A7F2 /* Debate - Biden5.mp3 in Resources */,
+				130FEC1B2502D44800682E91 /* Covid - world.mp3 in Resources */,
+				134A19E525101D9100F7A7F2 /* ReporterHand5.atlas in Resources */,
+				13CD641A24D8863600132435 /* trumpWalk.atlas in Resources */,
+				134A19E125101D9100F7A7F2 /* ReporterHand2.atlas in Resources */,
+				13198E0E24E1CC2100EF5C7C /* trumpYawn.atlas in Resources */,
+				139AA1DA250EBD4E00D37A58 /* Conference - Reporter5.mp3 in Resources */,
+				134494BB2506A63800DF68D5 /* Conference - CNN3.mp3 in Resources */,
+				134A1A0325115F9D00F7A7F2 /* Debate - Biden1.mp3 in Resources */,
+				134494C52506CF2E00DF68D5 /* Debate - Bong.mp3 in Resources */,
+				134494BC2506A63800DF68D5 /* Conference - CNN2.mp3 in Resources */,
+				13CD642824D9CECE00132435 /* trumpLazy.atlas in Resources */,
+				134494AB25069BE700DF68D5 /* Conference - Rude1.mp3 in Resources */,
+				134494AD25069BE700DF68D5 /* Conference - Rude2.mp3 in Resources */,
+				13198E1624E9B42C00EF5C7C /* televisionOn.atlas in Resources */,
+				134A19F8251150CE00F7A7F2 /* Debate - Biden4.mp3 in Resources */,
+				134D5D9A25155C64005E822E /* beach.otf in Resources */,
+				13CD644C24DB9F3D00132435 /* trumpSleep.atlas in Resources */,
+				13CD642324D9CECE00132435 /* trumpDrink.atlas in Resources */,
+				134A19E325101D9100F7A7F2 /* ReporterHand9.atlas in Resources */,
+				134D5D8F25142A3A005E822E /* SummerBlaster.otf in Resources */,
+				139AA1E0250EBD4E00D37A58 /* Conference - Reporter6.mp3 in Resources */,
+				13198E2224EB03F600EF5C7C /* backgroundFire.atlas in Resources */,
+				134494BF2506A63800DF68D5 /* Conference - Sit down.mp3 in Resources */,
+				13CD642524D9CECE00132435 /* trumpPressButton.atlas in Resources */,
+				13CD642424D9CECE00132435 /* trumpTouched.atlas in Resources */,
+				139AA1DD250EBD4E00D37A58 /* Conference - Reporter9.mp3 in Resources */,
+				13CD642624D9CECE00132435 /* trumpStomp.atlas in Resources */,
+				130FEC1A2502D44800682E91 /* Covid - go away.mp3 in Resources */,
+				13198E2024EB011300EF5C7C /* windowFire.atlas in Resources */,
+				134494B025069BE700DF68D5 /* Conference - Not you.mp3 in Resources */,
+				134494BE2506A63800DF68D5 /* Conference - CNN1.mp3 in Resources */,
+				13198E2D24ECAF2400EF5C7C /* angryMeterMAX.atlas in Resources */,
+				139AA1DC250EBD4E00D37A58 /* Conference - Reporter8.mp3 in Resources */,
+				134A19E725101D9100F7A7F2 /* ReporterHand3.atlas in Resources */,
+				134494BA2506A63800DF68D5 /* Conference - Run country.mp3 in Resources */,
+				138B2E3124D209B400878DE4 /* Main.storyboard in Resources */,
+				134494AC25069BE700DF68D5 /* Conference - Question.mp3 in Resources */,
+				134A19FB251154AD00F7A7F2 /* Debate - Circus.mp3 in Resources */,
+				138B2E3324D209BC00878DE4 /* Assets.xcassets in Resources */,
+				134A19E225101D9100F7A7F2 /* ReporterHand7.atlas in Resources */,
+				139AA1DB250EBD4E00D37A58 /* Conference - Reporter7.mp3 in Resources */,
+				134A1A0125115F9D00F7A7F2 /* Debate - Biden3.mp3 in Resources */,
+				130FEC182502D44800682E91 /* Covid - by cases.mp3 in Resources */,
+				134A19E625101D9100F7A7F2 /* ReporterHand8.atlas in Resources */,
+				13D7564D24FB4B1D0053EF5C /* trumpSmile.atlas in Resources */,
+				134494C42506CF2E00DF68D5 /* Debate - Bing.mp3 in Resources */,
+				130FEC172502D44800682E91 /* Covid - disinfectant.mp3 in Resources */,
+				134A1A0025115F9D00F7A7F2 /* Debate - Biden2.mp3 in Resources */,
+				134A19DF25101D9100F7A7F2 /* ReporterHand4.atlas in Resources */,
+				13CD642724D9CECE00132435 /* trumpTypeTweet.atlas in Resources */,
+				139AA1D9250EBD4E00D37A58 /* Conference - Reporter3.mp3 in Resources */,
+				139AA1DE250EBD4E00D37A58 /* Conference - Reporter2.mp3 in Resources */,
+				134A19E925113D1A00F7A7F2 /* trumpPodiumSmile.atlas in Resources */,
+				139AA1DF250EBD4E00D37A58 /* Conference - Reporter1.mp3 in Resources */,
+				134494AF25069BE700DF68D5 /* Conference - FakeNews.mp3 in Resources */,
+				134494B125069BE700DF68D5 /* Conference - Organization1.mp3 in Resources */,
+				134A19E425101D9100F7A7F2 /* ReporterHand1.atlas in Resources */,
+				138B2E3624D209BC00878DE4 /* LaunchScreen.storyboard in Resources */,
+				13D7565124FD9E1E0053EF5C /* trumpNuclearState.atlas in Resources */,
+				134D5D9425145ECB005E822E /* trumpagotchi-neu.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		138B2E1E24D209B400878DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13198E0324DE03BB00EF5C7C /* GameSelectScene.swift in Sources */,
+				138B2E2C24D209B400878DE4 /* OfficeScene.swift in Sources */,
+				13198E2A24EC4C2300EF5C7C /* ConferenceScene.swift in Sources */,
+				138B2E5D24D3803F00878DE4 /* Exit.swift in Sources */,
+				138B2E4524D2261C00878DE4 /* Television.swift in Sources */,
+				138B2E4B24D23D6000878DE4 /* Curtain.swift in Sources */,
+				13CD645624DC934800132435 /* BidenSprite.swift in Sources */,
+				13CD644924DB6BF000132435 /* TweetPile.swift in Sources */,
+				13CD641324D76A0A00132435 /* Pathfinding.swift in Sources */,
+				13CD645824DC941F00132435 /* TextBubble.swift in Sources */,
+				138B2E5724D34FD600878DE4 /* Utilities.swift in Sources */,
+				13AD180D24F05EAD003AD88E /* TweetPost.swift in Sources */,
+				13017E9425095BFD00D37769 /* PiggyBank.swift in Sources */,
+				13CD643D24D9D36C00132435 /* CokeState.swift in Sources */,
+				138B2E5124D2444D00878DE4 /* SmallTable.swift in Sources */,
+				13198E0124DDD5FB00EF5C7C /* DebateGameOver.swift in Sources */,
+				13198E1024E37C1F00EF5C7C /* CovidGameOver.swift in Sources */,
+				13CD641624D8704000132435 /* Meters.swift in Sources */,
+				138B2E4924D23A8800878DE4 /* FlagLeft.swift in Sources */,
+				138B2E4724D23A7D00878DE4 /* FlagRight.swift in Sources */,
+				13198E1A24E9C6EA00EF5C7C /* BriefingScene.swift in Sources */,
+				13198E2824EB273D00EF5C7C /* NuclearState.swift in Sources */,
+				13CD644524D9DC5600132435 /* SleepState.swift in Sources */,
+				13D7564A24FB31BB0053EF5C /* DictatorState.swift in Sources */,
+				138B2E4F24D2425000878DE4 /* CokeButton.swift in Sources */,
+				13CD644124D9DBCD00132435 /* WatchTVState.swift in Sources */,
+				13198E1224E452F600EF5C7C /* WallPieceBuilder.swift in Sources */,
+				13CD643F24D9D3E500132435 /* IdleState.swift in Sources */,
+				1396CFD024F8268800BC011B /* ConferenceGameOver.swift in Sources */,
+				13198E0524DE074000EF5C7C /* CovidScene.swift in Sources */,
+				1396CFCE24F44B7300BC011B /* TutorialBox.swift in Sources */,
+				1396CFCC24F2E7F500BC011B /* TrashBin.swift in Sources */,
+				138B2E4124D2152000878DE4 /* Desk.swift in Sources */,
+				13CD645424DC91C000132435 /* TrumpSprite.swift in Sources */,
+				130FEC102501B30A00682E91 /* DevComment.swift in Sources */,
+				13CD644724DB3B7000132435 /* LazyState.swift in Sources */,
+				13198E1824E9B46900EF5C7C /* NuclearSuitcase.swift in Sources */,
+				138B2E6224D760B400878DE4 /* Trump.swift in Sources */,
+				138B2E2E24D209B400878DE4 /* GameViewController.swift in Sources */,
+				138B2E4D24D2408D00878DE4 /* Chair.swift in Sources */,
+				13CD644E24DC6D6000132435 /* DebateScene.swift in Sources */,
+				138B2E2624D209B400878DE4 /* AppDelegate.swift in Sources */,
+				138B2E5324D3235800878DE4 /* CokeBottle.swift in Sources */,
+				13198E1424E460F700EF5C7C /* GameOverScene.swift in Sources */,
+				138B2E3E24D20A8700878DE4 /* Constants.swift in Sources */,
+				13CD645224DC6E1600132435 /* Tile.swift in Sources */,
+				130FEC0E2501AAF700682E91 /* Trophy.swift in Sources */,
+				138B2E4324D2200300878DE4 /* Background.swift in Sources */,
+				134494A22506837300DF68D5 /* DevAvatar.swift in Sources */,
+				138B2E5924D3632800878DE4 /* Briefing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		138B2E2F24D209B400878DE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138B2E3024D209B400878DE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		138B2E3424D209BC00878DE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138B2E3524D209BC00878DE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		138B2E3824D209BC00878DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		138B2E3924D209BC00878DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		138B2E3B24D209BC00878DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJXKKCV2R;
+				INFOPLIST_FILE = "V2-Trumpagotchi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waldibaldi.Trumpagotchi;
+				PRODUCT_NAME = Trumpagotchi;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		138B2E3C24D209BC00878DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJXKKCV2R;
+				INFOPLIST_FILE = "V2-Trumpagotchi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waldibaldi.Trumpagotchi;
+				PRODUCT_NAME = Trumpagotchi;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		138B2E1D24D209B400878DE4 /* Build configuration list for PBXProject "V2-Trumpagotchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138B2E3824D209BC00878DE4 /* Debug */,
+				138B2E3924D209BC00878DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138B2E3A24D209BC00878DE4 /* Build configuration list for PBXNativeTarget "V2-Trumpagotchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138B2E3B24D209BC00878DE4 /* Debug */,
+				138B2E3C24D209BC00878DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 138B2E1A24D209B400878DE4 /* Project object */;
+}
